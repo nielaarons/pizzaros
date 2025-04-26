@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pizza Man | Order</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <header>
+    <div class="logo">Pizza Man</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="order.html" class="active">Order</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="order-section">
+    <h1>Place Your Order</h1>
+    <form action="#" method="post">
+      <input type="text" placeholder="Your Name" required />
+      <input type="tel" placeholder="Phone Number" required />
+      <select required>
+        <option value="">Select Pizza</option>
+        <option value="margherita">Margherita - ₱499.99</option>
+        <option value="pepperoni">Pepperoni - ₱549.99</option>
+        <option value="hawaiian">Hawaiian - ₱499.99</option>
+      </select>
+      <input type="number" placeholder="Quantity" required min="1" />
+      <textarea rows="4" placeholder="Delivery Address" required></textarea>
+      <button type="submit" class="btn">Place Order</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Pizza Man. All rights reserved.</p>
+  </footer>
+</body>
+</html>
